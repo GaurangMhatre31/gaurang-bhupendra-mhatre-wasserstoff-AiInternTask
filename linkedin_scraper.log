@@ -1,0 +1,32 @@
+2025-04-05 12:58:57,200 - INFO - Starting browser...
+2025-04-05 12:58:59,322 - INFO - Logging in to LinkedIn...
+2025-04-05 12:59:10,858 - INFO - Login successful.
+2025-04-05 12:59:10,858 - INFO - Searching for: AI Engineer
+2025-04-05 12:59:48,900 - WARNING - Attempt 1 failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.reusable-search__result-container") to be visible
+  -     - waiting for" https://www.linkedin.com/checkpoint/lg/login-submit" navigation to finish...
+  -     - navigated to "https://www.linkedin.com/search/results/people/?keywords=AI%20Engineer"
+  -     - waiting for" https://www.linkedin.com/in/vishwajeet-mirche?trk=people-search-result" navigation to finish...
+  -     - navigated to "https://www.linkedin.com/in/vishwajeet-mirche?trk=people-search-result"
+
+2025-04-05 12:59:52,450 - INFO - Searching for: AI Engineer
+2025-04-05 12:59:53,182 - WARNING - Attempt 2 failed: Page.goto: net::ERR_ABORTED at https://www.linkedin.com/search/results/people/?keywords=AI%20Engineer
+Call log:
+  - navigating to "https://www.linkedin.com/search/results/people/?keywords=AI%20Engineer", waiting until "load"
+
+2025-04-05 12:59:57,546 - INFO - Searching for: AI Engineer
+2025-04-05 13:00:36,708 - WARNING - Attempt 3 failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div.reusable-search__result-container") to be visible
+  -     - waiting for" https://www.linkedinmobileapp.com/profile/in/prajakta-bhalerao-426031212?appType=FLAGSHIP&trk=appupsell-mweb-profile-non-blocking-upsell" navigation to finish...
+  -     - waiting for navigation to finish...
+  -     - navigated to "https://www.linkedin.com/in/varsha-khandagle-17bb6535?trk=people-also-viewed_member-name"
+  -     - waiting for" https://www.linkedin.com/in/ankita-dhage?trk=people-also-viewed_member-name" navigation to finish...
+  -     - navigated to "https://www.linkedin.com/in/ankita-dhage?trk=people-also-viewed_member-name"
+  -     - waiting for" https://www.linkedin.com/in/saroshr?trk=people-also-viewed_member-name" navigation to finish...
+  -     - navigated to "https://www.linkedin.com/in/saroshr?trk=people-also-viewed_member-name"
+
+2025-04-05 13:00:41,877 - ERROR - All attempts to load search results failed.
+2025-04-05 13:00:41,897 - INFO - Session cookies saved.
+2025-04-05 13:00:42,378 - INFO - Browser closed.
